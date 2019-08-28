@@ -23,7 +23,7 @@ public class Person {
 			StreetUSAddress addr) {
 		firstNames = fstNames;
 		lastNames = lstNames;
-		var str = ssnString.trim().replace("-","");
+		String str = ssnString.trim().replace("-","");
 		while(str.charAt(0) == '0') {
 			str = str.substring(1);
 		}
@@ -66,6 +66,16 @@ public class Person {
 		return placeDob;
 
 }
+	public StreetUSAddress getStreetUSAddress(){
+		return address;
+}
+	@Override
+	public String toString(){
+		String firstString = this.getFirstNames()+" "+this.getLastNames()+" ("+this.getSSN()+"),\n";
+		String secondString = this.getPlaceDob().toString()+"\n";
+		String thirdString = this.getStreetUSAddress().toString();
+		return firstString+secondString+thirdString;
+}
 // TODO provide the getter methods for placeDob and address 
 // TODO Override the public String toString() method that is similar to the 
 // toString of the StreetUSAddress class and will print a person as:
@@ -75,3 +85,12 @@ public class Person {
 // Apt 1B
 // Binghamton, NY 13905
 }
+
+
+
+
+
+
+
+
+

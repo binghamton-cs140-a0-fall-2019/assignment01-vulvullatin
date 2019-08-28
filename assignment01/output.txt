@@ -1,0 +1,91 @@
+
+TESTS FOR Computer.java:
+
+TESTS FOR Computer.java:
+Dell, Very good CPU, 8GB Memory, 2.0TB Solid State Drive, Price: $1500.00 
+Dell, Very good CPU, 8GB Memory, 2.0TB Hard Drive, Price: $1300.00 
+Dell, Very good CPU, 8GB Memory, 500GB Hard Drive, Price: $500.00 
+Dell, Very good CPU, 8GB Memory, 500GB Solid State Drive, Price: $700.00 
+
+TESTS FOR DateAndPlaceOfBirth.java:
+true
+Should be True
+false
+Should be False
+false
+Should be False
+false
+Should be False
+true
+Should be True
+false
+Should be False
+true
+Should be True
+true
+Should be True
+
+TESTS FOR StreetUSAddress.java:
+123 House Street
+Woodbridge, VA 22193
+123 Apartment Street
+Apartment 1
+Woodbridge, VA 22193
+
+TESTS FOR StreetUSAddress.java:
+123 House Street
+Woodbridge, VA 22193
+123 Apartment Street
+Apartment 1
+Woodbridge, VA 22193
+
+TESTS FOR Person.java:
+John Doe 129-87-3456,
+Date and place of birth: 2001-09-11, New York City, New York, United States
+1100 Pennsylvania Avenue
+Washington, DC 20004
+
+TESTS FOR ComputerOwner.java
+Computer List, Owner: John Doe 125-43-6789,
+Date and place of birth: 1999-01-01, Davenport, Iowa, United States
+123 First Place
+Townville, Oklahomansas 39201
+Computers: [Dell, Fast, 2GB Memory, 1GB Solid State Drive, Price: $1000000.00 , Dell, Slow, 3GB Memory, 2GB Hard Drive, Price: $3.00 , Dell, It does CPU stuff, 8GB Memory, 20GB Solid State Drive, Price: $30.00 , HP, All the cores, 9GB Memory, 10GB Hard Drive, Price: $200.20 ]
+Computer List, Owner: John Doe 125-43-6789,
+Date and place of birth: 1999-01-01, Davenport, Iowa, United States
+123 First Place
+Townville, Oklahomansas 39201
+Computers: [Dell, Fast, 2GB Memory, 1GB Solid State Drive, Price: $1000000.00 , Dell, It does CPU stuff, 8GB Memory, 20GB Solid State Drive, Price: $30.00 ]
+2 23, 1999
+3 12, 1876
+false
+Should be false
+2 23, 1999
+3 12, 1876
+false
+Should be false
+2/23/1999
+3/12/1876
+false
+Should be false
+
+TESTS FOR Person.java:
+John Doe 129-87-3456,
+Date and place of birth: 2001-09-11, A City, Mississippi, United States
+1100 Pennsylvania Avenue
+Apartment 1
+Washington, DC 20004
+
+TESTS FOR Person.java:
+John Doe 129-87-3456,
+Date and place of birth: 2001-09-11, A City, Mississippi, United States
+1100 Pennsylvania Avenue
+Apartment 1
+Washington, DC 20004
+
+TESTS FOR Person.java:
+John Doe (129-87-3456),
+Date and place of birth: 2001-09-11, A City, Mississippi, United States
+1100 Pennsylvania Avenue
+Apartment 1
+Washington, DC 20004
